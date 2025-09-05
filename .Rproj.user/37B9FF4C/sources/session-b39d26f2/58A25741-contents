@@ -1,0 +1,14 @@
+library(dplyr)
+library(readxl)
+library(ggplot2)
+
+vendas_df<- read_excel("vendas.xlsx")
+View(vendas_df)
+head(vendas_df)
+str(vendas_df)
+
+faturamento_loja <- group_by(Vendas_df, ID_loja)
+faturamento_loja <- summarise (faturamento_loja, Faturamento_Total = sum(Valor_Final))
+
+
+
