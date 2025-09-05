@@ -1,4 +1,4 @@
-# Aulas - Estatistica
+# Aula 1 - Estatistica
 
 <img width="1000" height="355" alt="Rplot03" src="https://github.com/user-attachments/assets/20aec5af-8e9f-4ae9-8ba1-ac2d874b5ac7" />
 
