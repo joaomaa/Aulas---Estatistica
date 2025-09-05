@@ -39,3 +39,18 @@ ggplot(faturamento_produto, mapping = aes(x=Produto, y=Faturamento_Total)) +
     fill = NULL
   )
 
+head(iris)
+str(iris)
+summary(iris)
+
+# Calcular a média do comprimento das pétalas
+media_petal <- mean(iris$Petal.Length)
+print(media_petal)
+
+# Representar a distribuição em um histograma
+hist(iris$Petal.Length,
+     main = "Histograma do Comprimento das Pétalas",
+     xlab = "Comprimento das Pétalas (cm)",
+     ylab = "Frequência",
+     col = "lightblue",
+     border = "black")
